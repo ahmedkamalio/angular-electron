@@ -1,4 +1,3 @@
-
 // -- Module dependencies --
 
 import { app, BrowserWindow } from 'electron';
@@ -21,6 +20,12 @@ function createWindow () {
 
   // Open the DevTools.
   win.webContents.openDevTools();
+
+  if (process.env.NODE_ENV === 'test') {
+    // Close the DevTools on test, spectron
+    // test will fail with DevTools opened.
+    win.webContents.closeDevTools();
+  }
 
   // Emitted when the window is closed.
   win.on('closed', () => {

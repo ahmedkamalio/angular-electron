@@ -1,4 +1,3 @@
-
 // -- Module dependencies --
 
 import { TestBed, async } from '@angular/core/testing';

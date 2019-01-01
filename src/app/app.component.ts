@@ -1,4 +1,3 @@
-
 // -- Module dependencies --
 
 import { Component } from '@angular/core';
@@ -10,12 +9,11 @@ import { ElectronService } from 'ngx-electron';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
   title = 'angular-electron';
 
   versions = { node: '', chrome: '', electron: '' };
 
-  constructor (private _electronService: ElectronService) {
+  constructor(private _electronService: ElectronService) {
     // Make sure that app is being executed inside of electron.
     if (this._electronService.isElectronApp) {
       // We have access to node process.
@@ -24,5 +22,4 @@ export class AppComponent {
       this.versions.electron = this._electronService.process.versions.electron;
     }
   }
-
 }
