@@ -85,9 +85,9 @@ $ npm run test
 And e2e.
 
 ```
-$ yarn e2e
+$ yarn ng:e2e
 # or
-$ npm run e2e
+$ npm run ng:e2e
 ```
 
 > The build and test processes have lint hook by default and will fail if the linting process failed.

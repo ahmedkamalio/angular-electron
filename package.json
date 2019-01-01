@@ -14,7 +14,7 @@
     "ng:e2e": "yarn lint && ng e2e",
     "ng:lint": "ng lint",
     "ng:start": "ng serve",
-    "ng:test": "ng test",
+    "ng:test": "ng test --watch=false",
     "prebuild": "yarn lint",
     "pretest": "yarn lint",
     "pretty": "prettier --config .prettierrc --write \"**/*{.ts,.js,.scss}\"",
