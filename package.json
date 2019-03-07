@@ -59,7 +59,7 @@
     "ngx-electron": "^2.0.0",
     "prettier": "^1.16.4",
     "protractor": "~5.4.0",
-    "rxjs": "~6.3.3",
+    "rxjs": "~6.4.0",
     "spectron": "^5.0.0",
     "ts-node": "~8.0.2",
     "tslib": "^1.9.0",
