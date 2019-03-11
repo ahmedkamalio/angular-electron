@@ -40,7 +40,7 @@
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "@types/app-root-path": "^1.2.4",
-    "@types/jasmine": "~2.8.8",
+    "@types/jasmine": "~3.3.9",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~11.10.5",
     "app-root-path": "^2.1.0",
