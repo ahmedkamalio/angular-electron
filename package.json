@@ -63,7 +63,7 @@
     "spectron": "^5.0.0",
     "ts-node": "~8.0.3",
     "tslib": "^1.9.0",
-    "tslint": "~5.13.1",
+    "tslint": "~5.14.0",
     "typescript": "~3.1.6",
     "zone.js": "~0.8.29"
   }
