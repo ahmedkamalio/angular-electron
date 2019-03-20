@@ -45,7 +45,7 @@
     "@types/node": "~11.11.0",
     "app-root-path": "^2.1.0",
     "codelyzer": "~4.5.0",
-    "core-js": "^2.6.5",
+    "core-js": "^3.0.0",
     "electron": "4.0.8",
     "fs-extra": "^7.0.1",
     "jasmine-core": "~3.3.0",
