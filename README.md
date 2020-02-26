@@ -1,109 +1,31 @@
-![angular-electron-logo](./src/assets/angular-electron-logo.png)
-
-[![Build Status](https://travis-ci.org/AhmedMKamal/angular-electron.svg?branch=master)](https://travis-ci.org/AhmedMKamal/angular-electron)
-[![Dependencies Status](https://david-dm.org/AhmedMKamal/angular-electron.svg)](https://david-dm.org/AhmedMKamal/angular-electron)
-[![Coverage Status](https://coveralls.io/repos/AhmedMKamal/angular-electron/badge.svg?branch=master&service=github)](https://coveralls.io/github/AhmedMKamal/angular-electron?branch=master)
-[![Known Vulnerabilities](https://snyk.io/test/github/AhmedMKamal/angular-electron/badge.svg)](https://snyk.io/test/github/AhmedMKamal/angular-electron)
-
 # Angular Electron
 
-**Don't think too much about configuration, just focus on code.**
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
-# Before You Begin
+## Electron App
 
-If you are new to the angular world, electron world or both it's recommended to take a look at the documentation first.
+Run `npm run build` to build the Angular app, and then run `npm start` to open the electron window.
 
- * Angular - [Official Website](https://angular.io/).
- * Electron - [Official Website](https://electronjs.org/).
+## Development server
 
-# Prerequisites
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Install `@angular/cli` globally.
+## Code scaffolding
 
-```
-$ yarn add global @angular/cli
-# or
-$ npm i -g @angular/cli
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Install `electron` globally.
+## Build
 
-```
-$ yarn add global electron
-# or
-$ npm i -g electron
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-# How to Use?
+## Running unit tests
 
-Get clone from the repo.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```
-$ git clone https://github.com/AhmedMKamal/angular-electron.git
-```
+## Running end-to-end tests
 
-Redirect to the repo folder.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-```
-$ cd angular-electron
-```
+## Further help
 
-Install the dependencies.
-
-```
-$ yarn install
-# or
-$ npm install
-```
-
-Build the app.
-
-```
-$ yarn build
-# or
-$ npm run build
-```
-
-And see it in action.
-
-```
-$ yarn start
-# or
-$ npm start
-```
-
-# Running the tests
-
-Simply run.
-
-```
-$ yarn test
-# or
-$ npm run test
-```
-
-And e2e.
-
-```
-$ yarn ng:e2e
-# or
-$ npm run ng:e2e
-```
-
-> The build and test processes have lint hook by default and will fail if the linting process failed.
-
-# Deployment
-
-I don't want to stuck with specific packing tool, so it's up to you to choose one of the most used tools listed below.
-
- * [electron-forge](https://github.com/electron-userland/electron-forge)
- * [electron-builder](https://github.com/electron-userland/electron-builder)
- * [electron-packager](https://github.com/electron-userland/electron-packager)
-
-# Credits
-
-Thanks [ThorstenHans](https://github.com/ThorstenHans) for the package [ngx-electron](https://github.com/ThorstenHans/ngx-electron) :heart:
-
-# License
-
-[The MIT License](https://github.com/AhmedMKamal/angular-electron/LICENSE.md)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
