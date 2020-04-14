@@ -1,0 +1,11 @@
+.toolbar {
+  height: auto;
+}
+
+.toolbar-title {
+  flex: 1;
+  font-size: small;
+  color: #636363;
+  text-align: center;
+  -webkit-app-region: drag;
+}
